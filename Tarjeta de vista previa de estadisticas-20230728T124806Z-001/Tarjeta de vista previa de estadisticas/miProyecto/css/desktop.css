@@ -1,0 +1,47 @@
+@media ( min-width:375px) {
+   html{
+    
+    padding: 10%;
+   }
+   body{
+    width: 800px;
+    height: 100%;
+   }
+    main {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: none;
+        height: 100%;
+        width: 100%;
+    }
+    main section img {
+       
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+        background-image: url("./Imagenes/image-header-desktop.jpg") ;
+    }
+    main div {
+        width: 50%;
+        height: 100%;
+        padding: 5% 7% ;
+        text-align: inherit;
+    }
+    main div ul.principal {
+        font-size: 14px;
+        
+    }
+    main section {
+        border-radius: 0 10px 10px 0;
+      
+    }
+    main div ul li{
+        margin: 20px 40px 20px 0;   
+        width: 150px;
+    }
+    main div ul.secundario {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+    
+}
