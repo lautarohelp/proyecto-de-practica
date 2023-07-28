@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color:  #ffffff;
+ 
+}
+
+main {
+    border-radius: 10px;
+    margin: 50px auto;
+    color: #ffffff;
+    
+    width: 90%;
+ 
+    
+
+}
+
+main section {
+    padding: 40px;
+
+}
+main section figure {
+    transition-duration: 1s, 15s;
+}
+
+
+main section figure:hover{
+   transform: translateX(220px);
+}
+
+main section nav {
+   margin: 25px 0;
+   
+}
+main section nav h1{
+    margin: 20px  0;
+      font-family: 'Big Shoulders Display', cursive;
+      font-size: 35px;
+}
+main section nav p {
+    margin: 20px 0;
+    font-size: 13.5px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 23px;
+    color: #ffffff83;
+}
+main section.cu1{
+    border-radius: 5px 5px 0 0;
+    background-color:  #e38826 ;
+}
+main section.cu1 div button{
+    color: #e38826;
+    
+   
+}
+main section.cu1 div button:hover{
+    color: #ffffff;
+    background-color:#8e510f ;
+    cursor: pointer;
+    border:solid #ffffff;
+    transition: all 0.5s ease;
+}
+main section.cu2{
+   background-color: #006970
+}
+main section.cu2 div button{
+   color: #006970;
+}
+main section.cu2 div button:hover{
+    background-color: #05363abf;
+    color: #ffffff;
+    cursor: pointer;
+    border:solid #ffffff;
+    transition: all 0.5s ease;
+}
+main section.cu3{
+    border-radius: 0 0 5px 5px;
+    background-color: #004241 ;
+}
+main section.cu3 button{
+    transition: all 0.5s ease;
+    color: #006970;
+}
+main section.cu3 button:hover{
+    background-color:#000f0fda ;
+    color: #ffffff;
+    cursor:wait ;
+    border:solid #ffffff;
+}
+
+main section div button{
+    border-radius: 25px;
+    border: none;
+    height: 38px;
+    width: 120px;
+
+}
+

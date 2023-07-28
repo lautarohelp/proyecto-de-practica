@@ -1,0 +1,24 @@
+@media (min-width:400px) {
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 410px;
+        width: 750px;
+        margin-top: 100px;
+        box-shadow: -2px -1px 40px -9px black;
+       
+    }
+    .main {
+        max-width: 250px;
+        height: 410px ;  
+        overflow: hidden; 
+       
+    }
+    main section.cu1{
+        border-radius: 5px 0 0 5px;
+    }
+    main section.cu3{
+        border-radius: 0 7px 7px 0;
+    }
+}
