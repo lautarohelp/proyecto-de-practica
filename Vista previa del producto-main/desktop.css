@@ -1,0 +1,25 @@
+@media(min-width:480px) {
+    main section figure {
+        background-image: url(./Imagenes/image-product-desktop.jpg);
+        background-size: cover;
+        max-width: non;
+        width: 275px;
+        height: 404px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px 0 0 10px;
+        transition: all 0.5s ease;
+    }
+    main section figure:hover{
+        
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+        width: 550px;
+        margin-top: 100px;     
+        box-shadow: 1px 1px 20px 0px  rgba(0, 0, 0, 0.445);   
+    }
+}

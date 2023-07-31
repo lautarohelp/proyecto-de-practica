@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: #f2ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin:25px 5% 0 5%;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 400px;
+  
+}
+h1{
+    font-family: 'Fraunces', serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color:#6c7289 ;
+}
+main section figure img.dd{
+    height:0px;
+    width: 0px;
+    position: absolute;
+    bottom: 18.6%;
+    left: 42%;
+    transition: all 0.5s ease;
+
+}
+
+main section figure:hover .dd{
+    height:150px;
+    width: 100px;
+    position: absolute;
+    bottom: 18.6%;
+    left: 40%;
+    box-shadow: 1px 1px 10px 1px black;
+}
+
+
+
+main section figure {
+    background-image: url(./Imagenes/image-product-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+}
+
+main div.general{
+    padding: 20px;
+}
+main div ul.prim{
+   
+    
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+main div div.sec h1{
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+main div div.sec p{
+   
+    line-height: 25px;
+    margin-bottom:15px ;
+   
+}
+main div ul.ter{
+    display: flex;
+    align-items: center;
+   
+}
+main div ul.ter h1{
+    color: #3c8067;
+    
+}
+main div ul.ter p{
+    text-decoration:line-through;
+    font-size: 15px;
+    margin-left: 15px;
+}
+main div section button{
+    background-color:#3c8067;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    margin-top: 13px;
+    transition: all 0.5s ease; 
+}
+main div section button:hover{
+    color: black;
+    box-shadow: inset 1px 1px 23px 4px rgb(28, 43, 38);
+ 
+}
+
+main div section button img{
+    margin:0 13px 0 0 ;
+}
