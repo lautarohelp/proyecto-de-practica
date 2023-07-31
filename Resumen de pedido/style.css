@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+html{
+    display: flex;
+    justify-content: center;
+    padding: 50px 10%;
+    background-image:url(./Imagenes/pattern-background-mobile.svg);
+    background-color: #e0e8ff;
+
+}
+.img4{
+    height: 0px;
+    width: 0px;
+    
+}
+main{
+    overflow: hidden;
+    border-radius: 15px;
+    background-color :white ;
+    max-width: 340px;
+    
+    
+}
+main section.img{
+    transition: all 0.5s ease;
+    font-size: 0px;   
+    text-align: center;
+}
+main section.img img{
+    height: 100%;
+    width: 100%;
+
+}
+main section.img:hover{
+   font-size: 20px;
+}
+
+
+main div.container{
+    text-align: center;
+   
+
+}
+main div section.principal h1{
+    font-size: 20px;
+    margin-bottom: 13px;
+  
+   
+}
+main div section.principal p{
+    color: rgba(77, 77, 77, 0.711);
+}
+main div section.principal{
+    font-size: 13px;
+    line-height: 23px;
+   color: black;
+   margin: 22px 25px;
+}
+
+main div.Annual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f5f7ff ;
+    border-radius: 10px;
+    margin:13px;
+    
+    
+}
+main div.Annual section{
+    margin:10px ;
+}
+main div section.hp h1{
+    font-size: 13px;
+}
+main div section.hp p{
+    font-size: 13px;
+    color: rgba(77, 77, 77, 0.711) ;
+}
+main div section a{
+    font-size: 13px;
+    margin-left:20px;
+}
+
+main div.button button{
+    background-color:rgb(33, 15, 231);
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    border: none;
+    margin: 0px 13px 13px 13px;
+    height: 50px;
+    width:92%;
+    cursor: pointer;
+    box-shadow: 0px 10px 20px -5px black;
+}
+
+main div ul a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(77, 77, 77, 0.711) ;
+    cursor: pointer;
+}
+main div ul {
+    margin: 10px 0 30px;
+}
