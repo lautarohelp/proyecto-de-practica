@@ -2,16 +2,25 @@
     main section figure {
         background-image: url(./Imagenes/image-product-desktop.jpg);
         background-size: cover;
-        max-width: non;
-        width: 275px;
+        max-width: none;
+        
         height: 404px;
         display: flex;
         justify-content: center;
         border-radius: 10px 0 0 10px;
         transition: all 0.5s ease;
     }
-    main section figure:hover{
+    main section.img{
+        overflow: hidden;
+        width: 200%;
+        height: 404px;
+        border-radius: 10px 0 0 10px;
+       
         
+    }
+    main section figure:hover {
+        transform: scale(1.5);
+        box-shadow: 1px 1px 10px 1px black;
     }
     main{
         display: flex;

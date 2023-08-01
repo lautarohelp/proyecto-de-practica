@@ -23,30 +23,13 @@ p{
     font-family: 'Montserrat', sans-serif;
     color:#6c7289 ;
 }
-main section figure img.dd{
-    height:0px;
-    width: 0px;
-    position: absolute;
-    bottom: 18.6%;
-    left: 42%;
-    transition: all 0.5s ease;
-
-}
-
-main section figure:hover .dd{
-    height:150px;
-    width: 100px;
-    position: absolute;
-    bottom: 18.6%;
-    left: 40%;
-    box-shadow: 1px 1px 10px 1px black;
-}
-
 
 
 main section figure {
+    
     background-image: url(./Imagenes/image-product-mobile.jpg);
     background-size: cover;
+    background-position:center;
     width: 100%;
     max-width: 400px;
     height: 200px;
