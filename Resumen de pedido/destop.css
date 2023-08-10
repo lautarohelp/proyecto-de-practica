@@ -1,5 +1,7 @@
 @media(min-width:400px) {
     html{
         background-image: url(./Imagenes/pattern-background-desktop.svg);
+        background-position-y: -100px;
+        background-repeat: no-repeat;
     }
 }

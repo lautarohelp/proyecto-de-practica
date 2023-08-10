@@ -21,4 +21,7 @@
     main section.cu3{
         border-radius: 0 7px 7px 0;
     }
+   main section figure {
+    height: 50px;
+   }
 }

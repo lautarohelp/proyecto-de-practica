@@ -12,7 +12,8 @@ html{
     padding: 50px 10%;
     background-image:url(./Imagenes/pattern-background-mobile.svg);
     background-color: #e0e8ff;
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .img4{
     height: 0px;
