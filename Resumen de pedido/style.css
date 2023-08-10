@@ -29,17 +29,21 @@ main{
     
 }
 main section.img{
-    transition: all 0.5s ease;
+    transition: all 1.0s ease;
     font-size: 0px;   
     text-align: center;
 }
 main section.img img{
     height: 100%;
     width: 100%;
+    transition: all 1.0s ease;
 
 }
+main section.img:hover img{
+    transform: rotate(0.5turn);
+}
 main section.img:hover{
-   font-size: 20px;
+    font-size: 20px;
 }
 
 
